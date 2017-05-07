@@ -14,7 +14,6 @@ frameworks:
  - kconfig
  - kdoctools
  - kguiaddons
- - kbookmarks
  - kjobwidgets
  - solid
  - kitemviews
@@ -23,6 +22,7 @@ frameworks:
  - kcompletion
  - kiconthemes
  - kconfigwidgets
+ - kbookmarks
  - kio
  - knewstuff
  - kwindowsystem
