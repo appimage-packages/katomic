@@ -22,13 +22,13 @@ frameworks:
  - kwindowsystem
  - kcrash
  - kcompletion
- - kiconthemes
  - kconfigwidgets
  - kbookmarks
  - kio
  - knewstuff
  - kdbusaddons
  - kglobalaccel
+ - kiconthemes
  - ktextwidgets
  - kxmlgui
  - kservice
