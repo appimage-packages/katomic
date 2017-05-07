@@ -12,7 +12,8 @@ frameworks:
  - kauth
  - kcodecs
  - kconfig
- - kconfigwidgets
+ - kdoctools
+ - kguiaddons
  - kbookmarks
  - kjobwidgets
  - solid
@@ -20,11 +21,10 @@ frameworks:
  - sonnet
  - ktextwidgets
  - kcompletion
- - kguiaddons
  - kiconthemes
+ - kconfigwidgets
  - kio
  - knewstuff
- - kdoctools
  - kwindowsystem
  - kcrash
  - kwidgetsaddons
