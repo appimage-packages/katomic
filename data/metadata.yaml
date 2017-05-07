@@ -14,6 +14,7 @@ frameworks:
  - kconfig
  - kdoctools
  - kguiaddons
+ - kwidgetsaddons
  - kjobwidgets
  - solid
  - kitemviews
@@ -27,7 +28,6 @@ frameworks:
  - knewstuff
  - kwindowsystem
  - kcrash
- - kwidgetsaddons
  - kdbusaddons
  - kglobalaccel
  - kxmlgui
