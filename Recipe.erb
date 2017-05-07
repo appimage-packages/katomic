@@ -68,8 +68,7 @@ mkdir appimagetool ; cd appimagetool
 ../squashfs-root/usr/bin/appimagetool --appimage-extract
 cp -Rf squashfs-root/usr/bin/ ../squashfs-root/usr/
 cd ..
-rm -rf appimagetool/
-squashfs-root/{linuxdeployqt.svg,linuxdeployqt.desktop,AppRun,.DirIcon}
+rm -rf appimagetool/squashfs-root/{linuxdeployqt.svg,linuxdeployqt.desktop,AppRun,.DirIcon}
 mv squashfs-root/ linuxdeployqt
 # Call it with linuxdeployqt/usr/bin/linuxdeployqt ...
 unset LD_LIBRARY_PATH
