@@ -24,13 +24,13 @@ frameworks:
  - kcompletion
  - kconfigwidgets
  - kiconthemes
+ - kxmlgui
  - kbookmarks
  - kio
  - knewstuff
  - kdbusaddons
  - kglobalaccel
  - ktextwidgets
- - kxmlgui
  - kservice
 deps_on_kf5: false
 kde_deps:
