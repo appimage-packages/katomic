@@ -1,9 +1,9 @@
 name: katomic
 binary: katomic
 packages: false
-build_kf5
+build_kf5: true
 frameworks:
-  - extra-cmake-modules
+ - extra-cmake-modules
   - attica
   - karchive
   - kiconthemes
