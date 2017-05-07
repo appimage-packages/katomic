@@ -35,6 +35,7 @@ frameworks:
  - knewstuff
  - kdnssd
  - kdeclarative
+ - phonon
 deps_on_kf5: false
 kde_deps:
   - libkdegames
