@@ -2,8 +2,6 @@ name: katomic
 binary: katomic
 packages:
   - libopenal-dev
-  - libxtables10
-  - libatm1
 build_kf5: true
 frameworks:
  - extra-cmake-modules
