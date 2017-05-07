@@ -1,6 +1,7 @@
 name: katomic
 binary: katomic
-packages: false
+packages:
+  - libopenal-dev
 build_kf5: true
 frameworks:
  - extra-cmake-modules
