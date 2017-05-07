@@ -36,6 +36,7 @@ frameworks:
  - kdnssd
  - kdeclarative
  - phonon
+ - phonon-gstreamer
 deps_on_kf5: false
 kde_deps:
   - libkdegames
