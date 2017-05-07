@@ -24,6 +24,7 @@ frameworks:
  - kcompletion
  - kconfigwidgets
  - kiconthemes
+ - kservice
  - ktextwidgets
  - kxmlgui
  - kbookmarks
@@ -31,7 +32,6 @@ frameworks:
  - knewstuff
  - kdbusaddons
  - kglobalaccel
- - kservice
 deps_on_kf5: false
 kde_deps:
   - libkdegames
