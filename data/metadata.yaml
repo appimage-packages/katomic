@@ -8,6 +8,8 @@ frameworks:
  - karchive
  - ki18n
  - kcoreaddons
+ - polkit-qt-1
+ - kauth
  - kconfigwidgets
  - kbookmarks
  - kjobwidgets
@@ -25,8 +27,6 @@ frameworks:
  - kdoctools
  - kwindowsystem
  - kcrash
- - polkit-qt-1
- - kauth
  - kwidgetsaddons
  - kdbusaddons
  - kglobalaccel
