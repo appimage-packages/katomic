@@ -32,6 +32,8 @@ frameworks:
  - kbookmarks
  - kio
  - knewstuff
+ - kdnssd
+ - kdeclarative
 deps_on_kf5: false
 kde_deps:
   - libkdegames
