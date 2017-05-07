@@ -25,10 +25,6 @@ wget -q https://github.com/probonopd/AppImages/raw/master/functions.sh -O ./func
 rm -f functions.sh
 
 cd /app.Dir
-#Move binary/desktop/icon into AppDir
-mv /app.Dir/usr/bin/<%= binary %> .
-mv /app.Dir/usr/share/applications/org.kde.<%= binary %>.desktop <%= binary %>.desktop
-cp /app.Dir/usr/share/icons/hicolor/48x48/apps/*<%= name %>* .
 
 cp /etc/mime.types ./etc/
 
@@ -72,7 +68,7 @@ rm -rf appimagetool/squashfs-root/{linuxdeployqt.svg,linuxdeployqt.desktop,AppRu
 mv squashfs-root/ linuxdeployqt
 # Call it with linuxdeployqt/usr/bin/linuxdeployqt ...
 unset LD_LIBRARY_PATH
-linuxdeployqt/usr/bin/linuxdeployqt <%= name %> -verbose=3 -bundle-non-qt-libs -qmldir=/opt/usr/qml
+linuxdeployqt/usr/bin/linuxdeployqt /app.Dir/usr/share/applications/org.kde.<%= binary %>.desktop -verbose=3 -bundle-non-qt-libs -qmldir=/opt/usr/qml
 
 patch_usr
 glibc_needed
