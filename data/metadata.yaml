@@ -6,6 +6,7 @@ frameworks:
  - extra-cmake-modules
  - attica
  - karchive
+ - ki18n
  - kiconthemes
  - kbookmarks
  - kjobwidgets
@@ -25,7 +26,6 @@ frameworks:
  - kcrash
  - polkit-qt-1
  - kauth
- - ki18n
  - kwidgetsaddons
  - kdbusaddons
  - kglobalaccel
