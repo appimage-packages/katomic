@@ -19,17 +19,17 @@ frameworks:
  - solid
  - kitemviews
  - sonnet
- - ktextwidgets
+ - kwindowsystem
+ - kcrash
  - kcompletion
  - kiconthemes
  - kconfigwidgets
  - kbookmarks
  - kio
  - knewstuff
- - kwindowsystem
- - kcrash
  - kdbusaddons
  - kglobalaccel
+ - ktextwidgets
  - kxmlgui
  - kservice
 deps_on_kf5: false
