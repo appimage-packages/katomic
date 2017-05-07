@@ -8,19 +8,19 @@ frameworks:
  - karchive
  - ki18n
  - kcoreaddons
- - kiconthemes
+  - kconfigwidgets
  - kbookmarks
  - kjobwidgets
  - solid
- - kio
  - kitemviews
  - sonnet
  - ktextwidgets
  - kcompletion
  - kguiaddons
- - kconfigwidgets
  - kcodecs
  - kconfig
+ - kiconthemes
+ - kio
  - knewstuff
  - kdoctools
  - kwindowsystem
