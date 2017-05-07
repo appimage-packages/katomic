@@ -1,20 +1,37 @@
 name: katomic
 binary: katomic
-packages:
-  - zsync
-  #app specifc
-build_kf5: true
+packages: false
+build_kf5
 frameworks:
   - extra-cmake-modules
-  - kwidgetsaddons
-  - kcoreaddons
-  - ki18n
-  - kdoctools
-  - kconfigwidgets
-  - kitemviews
+  - attica
+  - karchive
   - kiconthemes
+  - kbookmarks
+  - kjobwidgets
+  - solid
+  - kio
+  - kitemviews
+  - sonnet
+  - ktextwidgets
+  - kcompletion
+  - kguiaddons
+  - kconfigwidgets
+  - kcodecs
+  - kconfig
+  - knewstuff
+  - kdoctools
+  - kwindowsystem
   - kcrash
+  - polkit-qt-1
+  - kauth
+  - ki18n
+  - kwidgetsaddons
+  - kdbusaddons
+  - kglobalaccel
   - kxmlgui
+  - kservice
+  - kcoreaddons
 deps_on_kf5: false
 type: git
 url: http://anongit.kde.org/katomic
