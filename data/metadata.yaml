@@ -11,6 +11,7 @@ frameworks:
  - polkit-qt-1
  - kauth
  - kcodecs
+ - kconfig
  - kconfigwidgets
  - kbookmarks
  - kjobwidgets
@@ -20,7 +21,6 @@ frameworks:
  - ktextwidgets
  - kcompletion
  - kguiaddons
- - kconfig
  - kiconthemes
  - kio
  - knewstuff
